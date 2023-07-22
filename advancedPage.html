@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Google Search Clone</title>
+        <link rel="stylesheet" href="style_cs50.css"/>
+        <link 
+          rel="stylesheet"
+          href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        />
+    </head>
+    <body>
+        <div class="advancedHeader">
+            <div class="googleImageLittle">
+                <img src="google_main_logo.png" alt="" />
+            </div>
+            <a href="google_clone_index.html">Google Search</a>
+        </div>
+
+        <div class="advancedSubHeader">
+            <h3>Advanced Search</h3>
+        </div>
+        <form action="https://google.com/search">
+            <div class="inputOne">
+                <div class="textDesHeading">Find pages with...</div>
+                <div class="input-field"></div>
+                <div class="ToDoHeading">To do this in the search box</div>
+            </div>
+            <div class="inputOne">
+                <div class="textDes">all these words:</div>
+                <div class="input-field">
+                    <input type="text" name="as_q"/>
+                </div>
+                <div class="toDo">
+                    Type the important words: <span>tri-colour rat terrier</span>
+                </div>
+            </div>
+            <div class="inputOne">
+                <div class="textDes">this exact word or phrase:</div>
+                <div class="input-field">
+                    <input type="text" name="as_epq"/>
+                </div>
+                <div class="toDo">
+                    Don't forget quotation marks: <span>"rat terrier"</span>
+                </div>
+            </div>
+            <div class="inputOne">
+                <div class="textDes">any of these words:</div>
+                <div class="input-field">
+                    <input type="text" name="as_oq"/>
+                </div>
+                <div class="toDo">
+                    Choose between words: <span>mini or regular</span>
+                </div>
+            </div>
+            <div class="inputOne">
+                <div class="textDes">none of these words:</div>
+                <div class="input-field">
+                    <input type="text" name="as_eq"/>
+                </div>
+                <div class="toDo">
+                    Text the minus sign right before the words which you don't need: 
+                    <span>-rodent, -"Jack Russell"</span>
+                </div>
+            </div>
+
+            <div class="inputOne">
+                <div class="textDes"></div>
+                <div class="input-field">
+                    <input type="submit" value="Advanced Search" name="btnK"/>
+                </div>
+                
+            </div>
+        </form>
+    </body>
+</html>

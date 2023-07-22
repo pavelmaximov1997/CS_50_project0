@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Google Search Clone</title>
+        <link rel="stylesheet" href="style_cs50.css"/>
+        <link 
+          rel="stylesheet"
+          href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        />
+    </head>
+    <body>
+        <header class="head">
+            <div id="links">
+                <a href="googleImage.html">Image Search</a>
+                <a href="advancedPage.html">Advanced Search</a>
+            </div>
+        </header>
+        <div id="mainSection">
+            <div id="image">
+                <img src="google_main_logo.png" alt="" />
+            </div>
+
+            <form action="https://google.com/search">
+                <div id="inputField">
+                    <i class="fas fa-search"></i>
+                    <input type="text" placeholder="Search..." name="q"/>
+                </div>
+
+                <div id="button">
+                    <input type="submit" value="Google Search" name="btnK"/>
+                    <input type="submit" value="I'm Feeling Lucky" name="btnI"/>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
