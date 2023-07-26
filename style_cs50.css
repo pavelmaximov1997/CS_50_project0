@@ -34,7 +34,7 @@ body {
 }
 
 #mainSection #inputField {
-    border: 1px solid wheat;
+    border: 1px solid rgb(7, 61, 239);
     height: 13px;
     border-radius: 24px;
     display: flex;
@@ -48,7 +48,7 @@ body {
 }
 
 #mainSection #inputField:hover {
-    box-shadow: 0 0 5px grey;
+    box-shadow: 0 0 5px rgb(128, 128, 128);
 }
 
 #mainSection #inputField input {
@@ -124,7 +124,7 @@ body {
 }
 .inputOne .input-field {
     min-width: 169px;
-    width: 60%;
+    width: 50%;
 }
 
 .input-field .input-field input {
@@ -154,7 +154,7 @@ span {
 .inputOne .button {
     width: 50%;
     display: flex;
-    justify-content: flex-end;
+    justify-content:center;
 }
 
 .button input {
